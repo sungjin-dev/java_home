@@ -1,0 +1,24 @@
+package class_Car5;
+
+public class Car5 {
+    //필드
+    int speed;
+
+    //생성자
+
+    //메서드
+    int getSpeed() {
+        return speed;
+    }
+
+    void keyTurnOn() {
+        System.err.println("키를 돌립니다.");
+    }
+
+    void run() {
+        for(int i =10; i<=50; i+=10){
+            speed = i;
+            System.err.println("달립니다.(시속:" + speed + ")");
+        }
+    }
+}
