@@ -1,4 +1,4 @@
-package class_Korean;
+package class_korean;
 
 public class Korean {
     String nation = "대한민국";

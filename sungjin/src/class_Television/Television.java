@@ -1,4 +1,4 @@
-package class_Television;
+package class_television;
 
 public class Television {
     static String company = "Samsung";

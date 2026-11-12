@@ -1,4 +1,4 @@
-package class_Korean;
+package class_korean;
 
 public class KoreanExample {
     public static void main(String[] args) {
