@@ -1,12 +1,12 @@
 package package_vector_example;
 
 public class Board {
-    String subject;
-    String content;
+    public String subject;
+    public String content;
     String writer;
 
-    public Board(String subject, String content, String writer) {
-        this.subject = subject;
+    public Board(int inputId, String content, String writer) {
+        this.subject = inputId;
         this.content = content;
         this.writer = writer;
     }
