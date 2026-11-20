@@ -51,7 +51,7 @@ public class RunLibrary{
 
             } else if (inputInt == 3) {
                     File file = new File("C:/Temp/file/txt");
-                    FileWriter fw = new FileWriter(file, true);
+                    FileWriter fw = new FileWriter(file);
                     
                     for(int i=0; i<list.size(); i++) {
                     Books books = list.get(i);
