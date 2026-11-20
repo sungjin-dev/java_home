@@ -3,6 +3,8 @@ package test1120;
 import java.io.Console;
 import java.util.Scanner;
 
+import string_replace_example.BookManager;
+
 public class LibraryMain {
     public static void main(String[] args) {
         Manageable interfaceManager = new BookManager();

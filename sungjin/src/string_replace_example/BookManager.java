@@ -1,4 +1,4 @@
-package test1120;
+package string_replace_example;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -6,6 +6,9 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+
+import test1120.Book;
+import test1120.Manageable;
 
 
 public class BookManager implements Manageable{
