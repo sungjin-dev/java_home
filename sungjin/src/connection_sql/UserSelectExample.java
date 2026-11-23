@@ -1,22 +1,3 @@
-package connection_sql;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
-public class UserSelectExample {
-    public static void main(String[] args) {
-         Connection conn = null;
-
-         try {
-            //JDBC Driver 등록
-            Class.forName("oracle.jdbc.OracleDriver");   //forName이 드라이버 찾음
-
-            //연결하기
-            conn = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/XE","system","1234");
-            System.out.println("연결 성공");
 
             //매개변수화된 SQL문 작성
             String sql = ""+

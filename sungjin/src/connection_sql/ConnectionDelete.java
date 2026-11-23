@@ -1,21 +1,4 @@
-package connection_sql;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-
-public class ConnectionDelete {
-    public static void main(String[] args) {
-        Connection conn = null;  // 이건 try문 밖에 두고 finally에서 관리가능
-
-        try {
-            //JDBC Driver 등록
-            Class.forName("oracle.jdbc.OracleDriver");   //forName이 드라이버 찾음
-
-            //연결하기
-            conn = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/XE","system","1234");
-            System.out.println("연결 성공");
 
             //매개변수화된 SQL문 작성
             String sql = "DELETE FROM boards WHERE btitle=?";
